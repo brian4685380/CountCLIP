@@ -22,7 +22,7 @@ import os
 ImageFile.LOAD_TRUNCATED_IMAGES = True
 
 # WanB login - Make sure to change the login call to wandb.login(key='<yourapikey') the first time you run.
-wandb.login()
+wandb.login(key = "a73a8afe8df2036d86fd63c7fb173d12e777c10b")
 wandb.init(
       project="mlrc",
       name=f"dgx_test",
