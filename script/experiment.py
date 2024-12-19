@@ -6,7 +6,6 @@ from torch.utils.data import DataLoader
 from tqdm import tqdm
 from tqdm import trange
 import clip
-from transformers import CLIPProcessor, CLIPModel
 from PIL import ImageFile
 import random
 import matplotlib.pyplot as plt
